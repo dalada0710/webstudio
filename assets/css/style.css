@@ -209,4 +209,45 @@ a {
   letter-spacing: 0.3px;
 }  
 
+/* block 3 */
 
+.work {
+  padding: 94px 0;
+}
+
+.work h2 {
+  margin: 0 0 50px;
+  font-size: 36px;
+  line-height: normal;
+  text-align: center;
+}
+
+.work-list {
+  display: flex;
+  gap: 30px;
+
+}
+
+.work-list__item {
+  flex: 1;
+  position: relative;
+}
+
+.work-list__item img {
+  display: block;
+  width: 100%;
+}
+
+.work-list__item h3 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 27px;
+  background-color: rgba(47, 48, 58, .8);
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
